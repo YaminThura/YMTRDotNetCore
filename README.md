@@ -37,3 +37,26 @@ SLH => Collin
 -5000 => +5000
 
 Bank + 5000
+
+-----------Day1--------------
+
+USE [DotNetTraining]
+GO
+
+INSERT INTO [dbo].[Tbl_Blog]
+           ([BlogTitle]
+           ,[BlogAuthor]
+           ,[BlogContent])
+     VALUES
+           ('Title'
+           ,'Author'
+           ,'Content')
+GO
+
+select * from Tbl_Blog where DeleteFlag = 0
+
+update Tbl_Blog set BlogTitle = 'hee' where BlogId = '1'
+update Tbl_Blog set DeleteFlag = 1 where BlogId = '2'
+
+delete from Tbl_Blog where BlogId = '2'
+
