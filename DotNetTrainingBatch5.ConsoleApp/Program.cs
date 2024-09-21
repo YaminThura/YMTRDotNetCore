@@ -66,6 +66,8 @@ Console.WriteLine("Connection closing...");
 connection.Close();
 Console.WriteLine("Connection closed.");
 
+Console.ReadKey();
+
 // DataSet
 // DataTable
 // DataRow
@@ -80,4 +82,3 @@ Console.WriteLine("Connection closed.");
 //    //Console.WriteLine(dr["DeleteFlag"]);
 //}
 
-Console.ReadKey();
