@@ -60,3 +60,5 @@ update Tbl_Blog set DeleteFlag = 1 where BlogId = '2'
 
 delete from Tbl_Blog where BlogId = '2'
 
+
+dotnet ef dbcontext scaffold "Server=.;Database=DotNetTraining;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -f

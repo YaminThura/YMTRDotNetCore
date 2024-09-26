@@ -3,12 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.ConsoleApp", "DotNetTrainingBatch5.ConsoleApp\DotNetTrainingBatch5.ConsoleApp.csproj", "{BAE4939A-9CFD-4067-BA80-84671A2E9E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.ConsoleApp", "DotNetTrainingBatch5.ConsoleApp\DotNetTrainingBatch5.ConsoleApp.csproj", "{BAE4939A-9CFD-4067-BA80-84671A2E9E82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{DEA09A07-DC3A-4256-B25C-70EE7E2FFE20}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.Database", "DotNetTrainingBatch5.Database\DotNetTrainingBatch5.Database.csproj", "{24F2A01E-46AA-4365-A407-0D5168D09F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.ConsoleApp2", "DotNetTrainingBatch5.ConsoleApp2\DotNetTrainingBatch5.ConsoleApp2.csproj", "{343FEE5A-ED4C-42E4-A658-C964DDE649DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,14 @@ Global
 		{BAE4939A-9CFD-4067-BA80-84671A2E9E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE4939A-9CFD-4067-BA80-84671A2E9E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAE4939A-9CFD-4067-BA80-84671A2E9E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F2A01E-46AA-4365-A407-0D5168D09F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F2A01E-46AA-4365-A407-0D5168D09F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F2A01E-46AA-4365-A407-0D5168D09F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F2A01E-46AA-4365-A407-0D5168D09F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
