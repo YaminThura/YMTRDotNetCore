@@ -10,9 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.Database", "DotNetTrainingBatch5.Database\DotNetTrainingBatch5.Database.csproj", "{24F2A01E-46AA-4365-A407-0D5168D09F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.Database", "DotNetTrainingBatch5.Database\DotNetTrainingBatch5.Database.csproj", "{24F2A01E-46AA-4365-A407-0D5168D09F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.ConsoleApp2", "DotNetTrainingBatch5.ConsoleApp2\DotNetTrainingBatch5.ConsoleApp2.csproj", "{343FEE5A-ED4C-42E4-A658-C964DDE649DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.ConsoleApp2", "DotNetTrainingBatch5.ConsoleApp2\DotNetTrainingBatch5.ConsoleApp2.csproj", "{343FEE5A-ED4C-42E4-A658-C964DDE649DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.RestApi", "DotNetTrainingBatch5.RestApi\DotNetTrainingBatch5.RestApi.csproj", "{0FC571BF-9E58-4737-97C0-0298EA958843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{343FEE5A-ED4C-42E4-A658-C964DDE649DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC571BF-9E58-4737-97C0-0298EA958843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC571BF-9E58-4737-97C0-0298EA958843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC571BF-9E58-4737-97C0-0298EA958843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC571BF-9E58-4737-97C0-0298EA958843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
